@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product Strategy on Stack &amp; Strategy</title>
+    <link>https://blog.opaltrail.com/tags/product-strategy/</link>
+    <description>Recent content in Product Strategy on Stack &amp; Strategy</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jun 2025 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.opaltrail.com/tags/product-strategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Trying to Solve Big Problems. Solve Boring Ones Beautifully.</title>
+      <link>https://blog.opaltrail.com/posts/solve-boring-beautifully/</link>
+      <pubDate>Thu, 19 Jun 2025 15:00:00 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/solve-boring-beautifully/</guid>
+      <description>You don’t need to invent the next Google. You need to make one annoying task a joy to complete. Here’s why small, overlooked problems are where the real gold lives.</description>
+    </item>
+  </channel>
+</rss>
