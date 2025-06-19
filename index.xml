@@ -6,8 +6,18 @@
     <description>Recent content on Stack &amp; Strategy</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.opaltrail.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://blog.opaltrail.com/about/</link>
+      <pubDate>Thu, 19 Jun 2025 16:00:00 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/about/</guid>
+      <description>&lt;h1 id=&#34;about-opaltrail&#34;&gt;About OpalTrail&lt;/h1&gt;
+&lt;p&gt;OpalTrail isn’t just a blog. It’s a digital arsenal — a collection of ruthless microtools and sharp insights designed for creators, webmasters, and indie developers who want to get things done with zero fluff.&lt;/p&gt;
+&lt;p&gt;Visit the homepage &lt;a href=&#34;https://opaltrail.com&#34;&gt;→ OpalTrai.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I’m Matt Livingston, the builder behind this operation. I’ve spent years hacking my way through code, strategy, and product launches — fueled by caffeine, grit, and a refusal to settle for half-measures.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stop Trying to Solve Big Problems. Solve Boring Ones Beautifully.</title>
       <link>https://blog.opaltrail.com/posts/solve-boring-beautifully/</link>

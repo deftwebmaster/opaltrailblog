@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.opaltrail.com/about/</loc>
+    <lastmod>2025-06-19T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.opaltrail.com/</loc>
+    <lastmod>2025-06-19T16:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.opaltrail.com/tags/indie-dev/</loc>
     <lastmod>2025-06-19T15:00:00+00:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2025-06-19T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.opaltrail.com/tags/product-strategy/</loc>
-    <lastmod>2025-06-19T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.opaltrail.com/</loc>
     <lastmod>2025-06-19T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.opaltrail.com/posts/solve-boring-beautifully/</loc>
