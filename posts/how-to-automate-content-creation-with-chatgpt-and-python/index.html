@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How to Automate Content Creation with ChatGPT and Python – Deployed</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#0f172a">
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Deployed – Tactical Dev Logs from OpalTrail">
+<meta property="og:description" content="Clean code. Sharp strategy. No fluff. Just dispatches from the digital frontier.">
+<meta property="og:url" content="https://blog.opaltrail.com/">
+<meta property="og:image" content="https://blog.opaltrail.com/social-card.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Deployed – Tactical Dev Logs from OpalTrail">
+<meta name="twitter:description" content="Clean code. Sharp strategy. No fluff. Just dispatches from the digital frontier.">
+<meta name="twitter:image" content="https://blog.opaltrail.com/social-card.png">
+<meta name="keywords" content="webdev, productivity, SEO, tools">
+<meta name="description" content="Discover how to automate your content creation process by leveraging the power of ChatGPT and Python. Boost productivity and streamline your workflow with this innovative approach.">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.163f3883711c518874f0a9cbe6ecb5e325afd6241a30bc2f14e291fdc82b24e3.css" integrity="sha256-Fj84g3EcUYh08KnL5uy14yWv1iQaMLwvFOKR/cgrJOM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.opaltrail.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.opaltrail.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.opaltrail.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.opaltrail.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.opaltrail.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/">
+  <meta property="og:site_name" content="Deployed – Code, Tactics, and Digital Ops">
+  <meta property="og:title" content="How to Automate Content Creation with ChatGPT and Python">
+  <meta property="og:description" content="Discover how to automate your content creation process by leveraging the power of ChatGPT and Python. Boost productivity and streamline your workflow with this innovative approach.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-20T08:23:51+00:00">
+    <meta property="article:modified_time" content="2025-06-20T08:23:51+00:00">
+    <meta property="article:tag" content="Webdev">
+    <meta property="article:tag" content="Productivity">
+    <meta property="article:tag" content="SEO">
+    <meta property="article:tag" content="Tools">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to Automate Content Creation with ChatGPT and Python">
+<meta name="twitter:description" content="Discover how to automate your content creation process by leveraging the power of ChatGPT and Python. Boost productivity and streamline your workflow with this innovative approach.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://blog.opaltrail.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to Automate Content Creation with ChatGPT and Python",
+      "item": "https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to Automate Content Creation with ChatGPT and Python",
+  "name": "How to Automate Content Creation with ChatGPT and Python",
+  "description": "Discover how to automate your content creation process by leveraging the power of ChatGPT and Python. Boost productivity and streamline your workflow with this innovative approach.",
+  "keywords": [
+    "webdev", "productivity", "SEO", "tools"
+  ],
+  "articleBody": "In the fast-paced world of content creation, efficiency is key. Whether you’re a developer, webmaster, or indie creator, finding ways to streamline your workflow can significantly enhance productivity. One effective strategy is to automate content creation using ChatGPT and Python. This powerful combination can transform how you generate content, allowing you to focus more on strategic tasks and less on repetitive writing.\nUnderstanding ChatGPT: A Brief Overview 🧠 ChatGPT, a language model developed by OpenAI, has revolutionized the way we handle natural language processing tasks. It’s trained on a diverse range of internet texts, enabling it to generate human-like text responses based on given prompts. This makes ChatGPT an excellent tool for automating content creation, as it can produce coherent and contextually appropriate content with minimal human intervention.\nKey Features of ChatGPT Versatility: ChatGPT can handle various writing styles and topics, making it suitable for different content needs. Contextual Understanding: It generates text that is contextually relevant, ensuring that the content aligns with the intended message. Scalability: Ideal for generating large volumes of content quickly, saving time and resources. Why Use Python with ChatGPT? 🔍 Python is a versatile programming language known for its simplicity and readability, making it an excellent choice for automating tasks. When paired with ChatGPT, Python can facilitate seamless integration and automation of content creation processes.\nBenefits of Using Python Ease of Use: Python’s straightforward syntax simplifies the automation process, even for those new to programming. Rich Ecosystem: A wide array of libraries and frameworks are available for data manipulation, web scraping, and API interactions. Extensive Community Support: Python’s vast community offers a wealth of resources and support for troubleshooting and enhancing your scripts. Setting Up Your Environment: Getting Started 🛠️ Before diving into automation, you need to set up your development environment. Here’s a step-by-step guide to get you started:\n1. Install Python Ensure you have Python installed on your system. You can download it from the official Python website.\n2. Install Required Libraries Once Python is installed, use pip to install necessary libraries. For this task, you’ll primarily need the openai library to interact with ChatGPT and requests for handling HTTP requests.\npip install openai requests 3. Set Up Your OpenAI API Key To use ChatGPT, you’ll need an API key from OpenAI. Sign up at the OpenAI website and obtain your API key. Store it securely and make sure not to expose it in your code.\n4. Configure Your Environment Create a configuration file or use environment variables to securely store your API key. This ensures your credentials are not hard-coded into your scripts.\nAutomating Content Creation: A Step-by-Step Guide 🚀 With your environment set up, you’re ready to automate content creation. Here’s how to do it:\nStep 1: Define Your Content Parameters Decide on the type of content you want to generate. Whether it’s blog posts, product descriptions, or social media updates, having a clear goal is essential.\nStep 2: Write a Python Script Create a Python script to generate content using ChatGPT. Here’s a basic example:\nimport openai # Load your API key from an environment variable or secret management service api_key = \"YOUR_OPENAI_API_KEY\" openai.api_key = api_key def generate_content(prompt): response = openai.Completion.create( engine=\"text-davinci-003\", prompt=prompt, max_tokens=150 ) return response.choices[0].text.strip() # Example usage prompt = \"Write a blog post about the benefits of automating content creation.\" content = generate_content(prompt) print(content) Step 3: Customize Your Script Modify the script to suit your specific needs. You can adjust parameters such as the length of the generated text (max_tokens) and the prompt to align with your content strategy.\nStep 4: Automate the Process To fully automate, consider integrating your script with task schedulers like cron jobs (Linux) or Task Scheduler (Windows). This allows you to generate content at regular intervals without manual intervention.\nEnhancing Your Automation Workflow with Tools 🔧 To further optimize your content creation process, consider leveraging additional tools. For instance, the 🔍 Keyword Necromancer from OpalTrail can help resurrect old content with keyword suggestions and SEO guidance. This can complement your automated content by ensuring it is optimized for search engines, thus improving its reach and impact.\nBest Practices for Automated Content Creation ⚠️ While automation can significantly ease content creation, it’s crucial to maintain quality and relevance. Here are some best practices:\nReview and Edit: Always review AI-generated content for accuracy and coherence before publishing. Maintain a Human Touch: Ensure your content reflects your brand’s voice and values. Stay Updated: Continuously refine your prompts and scripts based on feedback and evolving content needs. Conclusion: Embrace Automation for Greater Efficiency ✨ Automating content creation using ChatGPT and Python can be a game-changer for developers, webmasters, and creators. By streamlining repetitive tasks, you can allocate more time to strategic initiatives and creative pursuits. As you embrace this innovative approach, remember to balance automation with human oversight to maintain the quality and authenticity of your content.\nReady to supercharge your content strategy? Start automating with ChatGPT and Python today, and explore the power of tools like 🔍 Keyword Necromancer to enhance your workflow. Let automation pave the way for your creative success!\n",
+  "wordCount" : "847",
+  "inLanguage": "en",
+  "datePublished": "2025-06-20T08:23:51.515805Z",
+  "dateModified": "2025-06-20T08:23:51.515805Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Deployed – Code, Tactics, and Digital Ops",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.opaltrail.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.opaltrail.com/" accesskey="h" title="Deployed – Code, Tactics, and Digital Ops (Alt + H)">
+                <img src="https://blog.opaltrail.com/images/deployed-logo.png" alt="" aria-label="logo"
+                    height="80"></a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://blog.opaltrail.com/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.opaltrail.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How to Automate Content Creation with ChatGPT and Python
+    </h1>
+    <div class="post-meta">4 min&nbsp;·&nbsp;847 words
+
+</div>
+  </header> 
+  <div class="post-content"><p>In the fast-paced world of content creation, efficiency is key. Whether you&rsquo;re a developer, webmaster, or indie creator, finding ways to streamline your workflow can significantly enhance productivity. One effective strategy is to automate content creation using ChatGPT and Python. This powerful combination can transform how you generate content, allowing you to focus more on strategic tasks and less on repetitive writing.</p>
+<hr>
+<h2 id="understanding-chatgpt-a-brief-overview-">Understanding ChatGPT: A Brief Overview 🧠<a hidden class="anchor" aria-hidden="true" href="#understanding-chatgpt-a-brief-overview-">#</a></h2>
+<p>ChatGPT, a language model developed by OpenAI, has revolutionized the way we handle natural language processing tasks. It&rsquo;s trained on a diverse range of internet texts, enabling it to generate human-like text responses based on given prompts. This makes ChatGPT an excellent tool for automating content creation, as it can produce coherent and contextually appropriate content with minimal human intervention.</p>
+<h3 id="key-features-of-chatgpt">Key Features of ChatGPT<a hidden class="anchor" aria-hidden="true" href="#key-features-of-chatgpt">#</a></h3>
+<ul>
+<li><strong>Versatility</strong>: ChatGPT can handle various writing styles and topics, making it suitable for different content needs.</li>
+<li><strong>Contextual Understanding</strong>: It generates text that is contextually relevant, ensuring that the content aligns with the intended message.</li>
+<li><strong>Scalability</strong>: Ideal for generating large volumes of content quickly, saving time and resources.</li>
+</ul>
+<hr>
+<h2 id="why-use-python-with-chatgpt-">Why Use Python with ChatGPT? 🔍<a hidden class="anchor" aria-hidden="true" href="#why-use-python-with-chatgpt-">#</a></h2>
+<p>Python is a versatile programming language known for its simplicity and readability, making it an excellent choice for automating tasks. When paired with ChatGPT, Python can facilitate seamless integration and automation of content creation processes.</p>
+<h3 id="benefits-of-using-python">Benefits of Using Python<a hidden class="anchor" aria-hidden="true" href="#benefits-of-using-python">#</a></h3>
+<ul>
+<li><strong>Ease of Use</strong>: Python&rsquo;s straightforward syntax simplifies the automation process, even for those new to programming.</li>
+<li><strong>Rich Ecosystem</strong>: A wide array of libraries and frameworks are available for data manipulation, web scraping, and API interactions.</li>
+<li><strong>Extensive Community Support</strong>: Python&rsquo;s vast community offers a wealth of resources and support for troubleshooting and enhancing your scripts.</li>
+</ul>
+<hr>
+<h2 id="setting-up-your-environment-getting-started-">Setting Up Your Environment: Getting Started 🛠️<a hidden class="anchor" aria-hidden="true" href="#setting-up-your-environment-getting-started-">#</a></h2>
+<p>Before diving into automation, you need to set up your development environment. Here’s a step-by-step guide to get you started:</p>
+<h3 id="1-install-python">1. Install Python<a hidden class="anchor" aria-hidden="true" href="#1-install-python">#</a></h3>
+<p>Ensure you have Python installed on your system. You can download it from the <a href="https://www.python.org/downloads/">official Python website</a>.</p>
+<h3 id="2-install-required-libraries">2. Install Required Libraries<a hidden class="anchor" aria-hidden="true" href="#2-install-required-libraries">#</a></h3>
+<p>Once Python is installed, use pip to install necessary libraries. For this task, you&rsquo;ll primarily need the <code>openai</code> library to interact with ChatGPT and <code>requests</code> for handling HTTP requests.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install openai requests
+</span></span></code></pre></div><h3 id="3-set-up-your-openai-api-key">3. Set Up Your OpenAI API Key<a hidden class="anchor" aria-hidden="true" href="#3-set-up-your-openai-api-key">#</a></h3>
+<p>To use ChatGPT, you&rsquo;ll need an API key from OpenAI. Sign up at the <a href="https://beta.openai.com/signup/">OpenAI website</a> and obtain your API key. Store it securely and make sure not to expose it in your code.</p>
+<h3 id="4-configure-your-environment">4. Configure Your Environment<a hidden class="anchor" aria-hidden="true" href="#4-configure-your-environment">#</a></h3>
+<p>Create a configuration file or use environment variables to securely store your API key. This ensures your credentials are not hard-coded into your scripts.</p>
+<hr>
+<h2 id="automating-content-creation-a-step-by-step-guide-">Automating Content Creation: A Step-by-Step Guide 🚀<a hidden class="anchor" aria-hidden="true" href="#automating-content-creation-a-step-by-step-guide-">#</a></h2>
+<p>With your environment set up, you’re ready to automate content creation. Here’s how to do it:</p>
+<h3 id="step-1-define-your-content-parameters">Step 1: Define Your Content Parameters<a hidden class="anchor" aria-hidden="true" href="#step-1-define-your-content-parameters">#</a></h3>
+<p>Decide on the type of content you want to generate. Whether it&rsquo;s blog posts, product descriptions, or social media updates, having a clear goal is essential.</p>
+<h3 id="step-2-write-a-python-script">Step 2: Write a Python Script<a hidden class="anchor" aria-hidden="true" href="#step-2-write-a-python-script">#</a></h3>
+<p>Create a Python script to generate content using ChatGPT. Here’s a basic example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> openai
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Load your API key from an environment variable or secret management service</span>
+</span></span><span style="display:flex;"><span>api_key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;YOUR_OPENAI_API_KEY&#34;</span>
+</span></span><span style="display:flex;"><span>openai<span style="color:#f92672">.</span>api_key <span style="color:#f92672">=</span> api_key
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_content</span>(prompt):
+</span></span><span style="display:flex;"><span>    response <span style="color:#f92672">=</span> openai<span style="color:#f92672">.</span>Completion<span style="color:#f92672">.</span>create(
+</span></span><span style="display:flex;"><span>        engine<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-davinci-003&#34;</span>,
+</span></span><span style="display:flex;"><span>        prompt<span style="color:#f92672">=</span>prompt,
+</span></span><span style="display:flex;"><span>        max_tokens<span style="color:#f92672">=</span><span style="color:#ae81ff">150</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> response<span style="color:#f92672">.</span>choices[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>text<span style="color:#f92672">.</span>strip()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>prompt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Write a blog post about the benefits of automating content creation.&#34;</span>
+</span></span><span style="display:flex;"><span>content <span style="color:#f92672">=</span> generate_content(prompt)
+</span></span><span style="display:flex;"><span>print(content)
+</span></span></code></pre></div><h3 id="step-3-customize-your-script">Step 3: Customize Your Script<a hidden class="anchor" aria-hidden="true" href="#step-3-customize-your-script">#</a></h3>
+<p>Modify the script to suit your specific needs. You can adjust parameters such as the length of the generated text (<code>max_tokens</code>) and the prompt to align with your content strategy.</p>
+<h3 id="step-4-automate-the-process">Step 4: Automate the Process<a hidden class="anchor" aria-hidden="true" href="#step-4-automate-the-process">#</a></h3>
+<p>To fully automate, consider integrating your script with task schedulers like cron jobs (Linux) or Task Scheduler (Windows). This allows you to generate content at regular intervals without manual intervention.</p>
+<hr>
+<h2 id="enhancing-your-automation-workflow-with-tools-">Enhancing Your Automation Workflow with Tools 🔧<a hidden class="anchor" aria-hidden="true" href="#enhancing-your-automation-workflow-with-tools-">#</a></h2>
+<p>To further optimize your content creation process, consider leveraging additional tools. For instance, the <a href="https://opaltrail.com/keyword-necromancer/">🔍 Keyword Necromancer</a> from OpalTrail can help resurrect old content with keyword suggestions and SEO guidance. This can complement your automated content by ensuring it is optimized for search engines, thus improving its reach and impact.</p>
+<hr>
+<h2 id="best-practices-for-automated-content-creation-">Best Practices for Automated Content Creation ⚠️<a hidden class="anchor" aria-hidden="true" href="#best-practices-for-automated-content-creation-">#</a></h2>
+<p>While automation can significantly ease content creation, it&rsquo;s crucial to maintain quality and relevance. Here are some best practices:</p>
+<ul>
+<li><strong>Review and Edit</strong>: Always review AI-generated content for accuracy and coherence before publishing.</li>
+<li><strong>Maintain a Human Touch</strong>: Ensure your content reflects your brand&rsquo;s voice and values.</li>
+<li><strong>Stay Updated</strong>: Continuously refine your prompts and scripts based on feedback and evolving content needs.</li>
+</ul>
+<hr>
+<h2 id="conclusion-embrace-automation-for-greater-efficiency-">Conclusion: Embrace Automation for Greater Efficiency ✨<a hidden class="anchor" aria-hidden="true" href="#conclusion-embrace-automation-for-greater-efficiency-">#</a></h2>
+<p>Automating content creation using ChatGPT and Python can be a game-changer for developers, webmasters, and creators. By streamlining repetitive tasks, you can allocate more time to strategic initiatives and creative pursuits. As you embrace this innovative approach, remember to balance automation with human oversight to maintain the quality and authenticity of your content.</p>
+<p>Ready to supercharge your content strategy? Start automating with ChatGPT and Python today, and explore the power of tools like <a href="https://opaltrail.com/keyword-necromancer/">🔍 Keyword Necromancer</a> to enhance your workflow. Let automation pave the way for your creative success!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://blog.opaltrail.com/tags/webdev/">Webdev</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/productivity/">Productivity</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/seo/">SEO</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/tools/">Tools</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://blog.opaltrail.com/">Deployed – Code, Tactics, and Digital Ops Blog</a> by <a href="https://opaltrail.com/">OpalTrail</a></span> · 
+
+    <span>Powered by half-finished features and full-blown ambition.</span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -6,42 +6,112 @@
     <description>Recent content in Posts on Deployed – Code, Tactics, and Digital Ops</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 11:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.opaltrail.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stop Trying to Solve Big Problems. Solve Boring Ones Beautifully.</title>
       <link>https://blog.opaltrail.com/posts/solve-boring-beautifully/</link>
-      <pubDate>Thu, 19 Jun 2025 15:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2025 11:00:00 +0000</pubDate>
       <guid>https://blog.opaltrail.com/posts/solve-boring-beautifully/</guid>
       <description>You don’t need to invent the next Google. You need to make one annoying task a joy to complete. Here’s why small, overlooked problems are where the real gold lives.</description>
     </item>
     <item>
+      <title>Stack First, Market Later: How to Cheat Your Way to Traffic</title>
+      <link>https://blog.opaltrail.com/posts/stack-first-market-later/</link>
+      <pubDate>Sat, 21 Jun 2025 10:35:00 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/stack-first-market-later/</guid>
+      <description>You don’t need a content strategy. You need a stack advantage. Here’s how to leverage your tech stack, app structure, and product decisions to generate traffic — before you touch marketing.</description>
+    </item>
+    <item>
       <title>The One-Page App Philosophy: Why Most SaaS Ideas Don’t Need a Dashboard</title>
       <link>https://blog.opaltrail.com/posts/the-one-page-app-philosophy/</link>
-      <pubDate>Thu, 19 Jun 2025 14:30:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2025 10:30:00 +0000</pubDate>
       <guid>https://blog.opaltrail.com/posts/the-one-page-app-philosophy/</guid>
       <description>Most SaaS ideas don’t need sidebars, navbars, or account settings. They need to deliver one clear result, fast. Here’s why the one-page philosophy wins for indie tools.</description>
     </item>
     <item>
       <title>Why I Ship Ugly First (and Why You Probably Should Too)</title>
       <link>https://blog.opaltrail.com/posts/why-i-ship-ugly-first/</link>
-      <pubDate>Thu, 19 Jun 2025 14:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2025 10:00:00 +0000</pubDate>
       <guid>https://blog.opaltrail.com/posts/why-i-ship-ugly-first/</guid>
       <description>Shipping ugly isn’t lazy — it’s strategic. Here’s why launching imperfect products fast beats pixel-perfect delays, especially when you’re building microtools.</description>
     </item>
     <item>
-      <title>Stack First, Market Later: How to Cheat Your Way to Traffic</title>
-      <link>https://blog.opaltrail.com/posts/stack-first-market-later/</link>
-      <pubDate>Thu, 19 Jun 2025 13:30:00 +0000</pubDate>
-      <guid>https://blog.opaltrail.com/posts/stack-first-market-later/</guid>
-      <description>You don’t need a content strategy. You need a stack advantage. Here’s how to leverage your tech stack, app structure, and product decisions to generate traffic — before you touch marketing.</description>
-    </item>
-    <item>
       <title>What I Learned Launching 5 Microtools in 10 Days</title>
       <link>https://blog.opaltrail.com/posts/what-i-learned-launching-5-microtools-in-10-days/</link>
-      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.opaltrail.com/posts/what-i-learned-launching-5-microtools-in-10-days/</guid>
       <description>Lessons from a speedrun through five micro-SaaS launches. Chaos, clarity, and a few tools that stuck.</description>
+    </item>
+    <item>
+      <title>Fast Prototyping with Static Site Generators Like Hugo</title>
+      <link>https://blog.opaltrail.com/posts/fast-prototyping-with-static-site-generators-like-hugo/</link>
+      <pubDate>Fri, 20 Jun 2025 08:24:31 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/fast-prototyping-with-static-site-generators-like-hugo/</guid>
+      <description>Explore how static site generators like Hugo can accelerate your website prototyping process, making it efficient, flexible, and SEO-friendly.</description>
+    </item>
+    <item>
+      <title>How to Automate Content Creation with ChatGPT and Python</title>
+      <link>https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/</link>
+      <pubDate>Fri, 20 Jun 2025 08:23:51 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/how-to-automate-content-creation-with-chatgpt-and-python/</guid>
+      <description>Discover how to automate your content creation process by leveraging the power of ChatGPT and Python. Boost productivity and streamline your workflow with this innovative approach.</description>
+    </item>
+    <item>
+      <title>From Side Project to SaaS: Lessons from Building Micro Tools</title>
+      <link>https://blog.opaltrail.com/posts/from-side-project-to-saas-lessons-from-building-micro-tools/</link>
+      <pubDate>Fri, 20 Jun 2025 08:23:03 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/from-side-project-to-saas-lessons-from-building-micro-tools/</guid>
+      <description>Explore how to turn your side project into a successful SaaS business. Learn strategic lessons from building micro tools to enhance your web development journey.</description>
+    </item>
+    <item>
+      <title>Smart UX Tweaks That Make Visitors Stay Longer</title>
+      <link>https://blog.opaltrail.com/posts/smart-ux-tweaks-that-make-visitors-stay-longer/</link>
+      <pubDate>Thu, 19 Jun 2025 08:24:52 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/smart-ux-tweaks-that-make-visitors-stay-longer/</guid>
+      <description>Explore strategic UX enhancements that can significantly boost visitor engagement and retention on your website. Discover practical tweaks to make visitors stay longer and improve your site&amp;rsquo;s performance.</description>
+    </item>
+    <item>
+      <title>Secure Your Shared Hosting: 7 Easy Wins for Solo Developers</title>
+      <link>https://blog.opaltrail.com/posts/secure-your-shared-hosting-7-easy-wins-for-solo-developers/</link>
+      <pubDate>Thu, 19 Jun 2025 08:24:12 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/secure-your-shared-hosting-7-easy-wins-for-solo-developers/</guid>
+      <description>Discover seven straightforward strategies to secure your shared hosting environment, specifically tailored for solo developers aiming to protect their projects from common vulnerabilities.</description>
+    </item>
+    <item>
+      <title>How to Use AI Tools to Accelerate Website Launches</title>
+      <link>https://blog.opaltrail.com/posts/how-to-use-ai-tools-to-accelerate-website-launches/</link>
+      <pubDate>Thu, 19 Jun 2025 08:22:16 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/how-to-use-ai-tools-to-accelerate-website-launches/</guid>
+      <description>Discover how AI tools can streamline the process of launching a website, from design to deployment, ensuring efficiency and effectiveness at every step.</description>
+    </item>
+    <item>
+      <title>Mastering Local Development with MAMP: A Beginner’s Guide</title>
+      <link>https://blog.opaltrail.com/posts/mastering-local-development-with-mamp-a-beginners-guide/</link>
+      <pubDate>Thu, 19 Jun 2025 08:21:53 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/mastering-local-development-with-mamp-a-beginners-guide/</guid>
+      <description>Discover how to effectively utilize MAMP for local development, enhancing your web development workflow with this beginner-friendly guide.</description>
+    </item>
+    <item>
+      <title>Why Every Webmaster Should Learn Just Enough Design</title>
+      <link>https://blog.opaltrail.com/posts/why-every-webmaster-should-learn-just-enough-design/</link>
+      <pubDate>Wed, 18 Jun 2025 08:25:09 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/why-every-webmaster-should-learn-just-enough-design/</guid>
+      <description>Discover why webmasters should learn basic design principles to elevate user experience, boost engagement, and optimize for SEO, even without a design background.</description>
+    </item>
+    <item>
+      <title>Using PHP to Build Lightweight APIs for Your Website</title>
+      <link>https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/</link>
+      <pubDate>Wed, 18 Jun 2025 08:23:26 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/</guid>
+      <description>Discover how to effectively use PHP to build lightweight APIs, streamlining your website&amp;rsquo;s functionality and improving performance with practical tips and comprehensive insights.</description>
+    </item>
+    <item>
+      <title>The Web Dev’s SEO Checklist for 2025</title>
+      <link>https://blog.opaltrail.com/posts/the-web-devs-seo-checklist-for-2025/</link>
+      <pubDate>Wed, 18 Jun 2025 08:22:40 +0000</pubDate>
+      <guid>https://blog.opaltrail.com/posts/the-web-devs-seo-checklist-for-2025/</guid>
+      <description>Stay ahead in the ever-evolving world of SEO with this comprehensive checklist tailored for web developers in 2025. Gain insights into the latest practices to enhance your site’s visibility and search engine ranking.</description>
     </item>
   </channel>
 </rss>

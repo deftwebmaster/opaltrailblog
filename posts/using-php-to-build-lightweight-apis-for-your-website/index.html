@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Using PHP to Build Lightweight APIs for Your Website – Deployed</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#0f172a">
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Deployed – Tactical Dev Logs from OpalTrail">
+<meta property="og:description" content="Clean code. Sharp strategy. No fluff. Just dispatches from the digital frontier.">
+<meta property="og:url" content="https://blog.opaltrail.com/">
+<meta property="og:image" content="https://blog.opaltrail.com/social-card.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Deployed – Tactical Dev Logs from OpalTrail">
+<meta name="twitter:description" content="Clean code. Sharp strategy. No fluff. Just dispatches from the digital frontier.">
+<meta name="twitter:image" content="https://blog.opaltrail.com/social-card.png">
+<meta name="keywords" content="webdev, productivity, SEO, tools">
+<meta name="description" content="Discover how to effectively use PHP to build lightweight APIs, streamlining your website&rsquo;s functionality and improving performance with practical tips and comprehensive insights.">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.163f3883711c518874f0a9cbe6ecb5e325afd6241a30bc2f14e291fdc82b24e3.css" integrity="sha256-Fj84g3EcUYh08KnL5uy14yWv1iQaMLwvFOKR/cgrJOM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.opaltrail.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.opaltrail.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.opaltrail.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.opaltrail.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.opaltrail.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/">
+  <meta property="og:site_name" content="Deployed – Code, Tactics, and Digital Ops">
+  <meta property="og:title" content="Using PHP to Build Lightweight APIs for Your Website">
+  <meta property="og:description" content="Discover how to effectively use PHP to build lightweight APIs, streamlining your website’s functionality and improving performance with practical tips and comprehensive insights.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-18T08:23:26+00:00">
+    <meta property="article:modified_time" content="2025-06-18T08:23:26+00:00">
+    <meta property="article:tag" content="Webdev">
+    <meta property="article:tag" content="Productivity">
+    <meta property="article:tag" content="SEO">
+    <meta property="article:tag" content="Tools">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Using PHP to Build Lightweight APIs for Your Website">
+<meta name="twitter:description" content="Discover how to effectively use PHP to build lightweight APIs, streamlining your website&rsquo;s functionality and improving performance with practical tips and comprehensive insights.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://blog.opaltrail.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Using PHP to Build Lightweight APIs for Your Website",
+      "item": "https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Using PHP to Build Lightweight APIs for Your Website",
+  "name": "Using PHP to Build Lightweight APIs for Your Website",
+  "description": "Discover how to effectively use PHP to build lightweight APIs, streamlining your website\u0026rsquo;s functionality and improving performance with practical tips and comprehensive insights.",
+  "keywords": [
+    "webdev", "productivity", "SEO", "tools"
+  ],
+  "articleBody": "In today’s fast-paced digital world, building efficient and lightweight APIs is crucial for web developers who aim to enhance their websites’ interactivity and performance. PHP, a widely-used server-side scripting language, offers a powerful yet straightforward way to create APIs that can help streamline processes and deliver dynamic content. This article will explore how you can leverage PHP to build lightweight APIs for your website, ensuring robust performance while keeping your development process agile and efficient.\nWhat is an API? 🤔 An API, or Application Programming Interface, is a set of rules that allows different software applications to communicate with each other. In web development, APIs enable your website to interact with external services, retrieve data, and even send information to other applications. APIs are essential for creating dynamic, interactive, and user-friendly web experiences.\nWhy Use PHP for APIs? PHP is known for its simplicity, speed, and ease of integration with various databases and technologies, making it a popular choice for web developers. Using PHP to build APIs offers several advantages:\nSimplicity: PHP’s syntax is straightforward and easy to learn, reducing the learning curve for new developers. Flexibility: PHP can be used to build APIs for a wide range of applications, from simple data retrieval to complex interactions. Cost-Effectiveness: As an open-source language, PHP reduces development costs and provides a vast library of resources. Community Support: A large community of PHP developers ensures that help and resources are readily available. Setting Up Your PHP Environment Before diving into API development, you need to set up a proper PHP environment. Here’s a quick guide to get you started:\n1. Install PHP Ensure that you have the latest version of PHP installed on your server. You can download PHP from php.net and follow the installation instructions for your operating system.\n2. Set Up a Local Server To test your API locally, you need a local server environment. Popular options include:\nXAMPP: A free and open-source cross-platform web server solution stack package. MAMP: A free, local server environment for macOS users. WampServer: A Windows web development environment. 3. Choose a Database APIs often require a database to store or retrieve data. MySQL is a popular choice that integrates seamlessly with PHP. Ensure your database server is set up and running.\nBuilding Your First PHP API Now that your environment is ready, let’s build a simple PHP API. For this example, we’ll create an API that retrieves user data from a database.\nStep 1: Database Setup Create a MySQL database and a table to store user data. Here’s a sample SQL query to create a table:\nCREATE TABLE users ( id INT(11) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL ); Step 2: Connecting to the Database Create a new PHP file (db.php) to handle database connections:\n\u003c?php $host = 'localhost'; $db = 'your_database_name'; $user = 'your_username'; $pass = 'your_password'; try { $pdo = new PDO(\"mysql:host=$host;dbname=$db\", $user, $pass); $pdo-\u003esetAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); } catch (PDOException $e) { die(\"Connection failed: \" . $e-\u003egetMessage()); } ?\u003e Step 3: Creating the API Endpoint Create a new PHP file (api.php) for the API logic:\n\u003c?php header(\"Content-Type: application/json\"); include 'db.php'; $sql = \"SELECT * FROM users\"; $statement = $pdo-\u003eprepare($sql); $statement-\u003eexecute(); $users = $statement-\u003efetchAll(PDO::FETCH_ASSOC); echo json_encode($users); ?\u003e Step 4: Testing the API To test your API, start your local server and navigate to http://localhost/api.php. You should see a JSON response with user data.\nEnhancing Your PHP API Once you’ve created a basic API, you can enhance it by adding features like data filtering, authentication, and error handling.\nData Filtering Allow users to filter data by adding query parameters to your API endpoint. Modify your SQL query to accept parameters:\n\u003c?php // ... $name = $_GET['name'] ?? ''; $sql = \"SELECT * FROM users WHERE name LIKE :name\"; $statement = $pdo-\u003eprepare($sql); $statement-\u003eexecute(['name' =\u003e \"%$name%\"]); $users = $statement-\u003efetchAll(PDO::FETCH_ASSOC); echo json_encode($users); ?\u003e Authentication For secure APIs, implement an authentication mechanism. One common method is using API keys or tokens.\nError Handling Ensure your API gracefully handles errors. Modify your script to return appropriate HTTP status codes and error messages.\n\u003c?php // ... try { // API logic } catch (Exception $e) { http_response_code(500); echo json_encode(['error' =\u003e $e-\u003egetMessage()]); } ?\u003e Best Practices for PHP APIs To create efficient and maintainable APIs, follow these best practices:\nKeep It Simple: Design APIs that are easy to understand and use. Documentation: Provide clear documentation for your API endpoints. Versioning: Use versioning to manage changes and ensure backward compatibility. Security: Implement security measures like HTTPS and input validation. Testing: Regularly test your API for performance and reliability. Conclusion Building lightweight APIs with PHP is a powerful way to enhance your website’s functionality while keeping performance in check. By following the steps and best practices outlined in this article, you’ll be well on your way to creating efficient, secure, and user-friendly APIs.\nIf you’re looking to optimize your blog content or resurrect old posts, consider using OpalTrail’s 🔍 Keyword Necromancer tool. It’s an excellent way to enhance your SEO strategy and breathe new life into your content.\nHappy coding! 🚀\n",
+  "wordCount" : "841",
+  "inLanguage": "en",
+  "datePublished": "2025-06-18T08:23:26.113848Z",
+  "dateModified": "2025-06-18T08:23:26.113848Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.opaltrail.com/posts/using-php-to-build-lightweight-apis-for-your-website/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Deployed – Code, Tactics, and Digital Ops",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.opaltrail.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.opaltrail.com/" accesskey="h" title="Deployed – Code, Tactics, and Digital Ops (Alt + H)">
+                <img src="https://blog.opaltrail.com/images/deployed-logo.png" alt="" aria-label="logo"
+                    height="80"></a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://blog.opaltrail.com/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.opaltrail.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Using PHP to Build Lightweight APIs for Your Website
+    </h1>
+    <div class="post-meta">4 min&nbsp;·&nbsp;841 words
+
+</div>
+  </header> 
+  <div class="post-content"><p>In today&rsquo;s fast-paced digital world, building efficient and lightweight APIs is crucial for web developers who aim to enhance their websites&rsquo; interactivity and performance. PHP, a widely-used server-side scripting language, offers a powerful yet straightforward way to create APIs that can help streamline processes and deliver dynamic content. This article will explore how you can leverage PHP to build lightweight APIs for your website, ensuring robust performance while keeping your development process agile and efficient.</p>
+<hr>
+<h2 id="what-is-an-api-">What is an API? 🤔<a hidden class="anchor" aria-hidden="true" href="#what-is-an-api-">#</a></h2>
+<p>An API, or Application Programming Interface, is a set of rules that allows different software applications to communicate with each other. In web development, APIs enable your website to interact with external services, retrieve data, and even send information to other applications. APIs are essential for creating dynamic, interactive, and user-friendly web experiences.</p>
+<h3 id="why-use-php-for-apis">Why Use PHP for APIs?<a hidden class="anchor" aria-hidden="true" href="#why-use-php-for-apis">#</a></h3>
+<p>PHP is known for its simplicity, speed, and ease of integration with various databases and technologies, making it a popular choice for web developers. Using PHP to build APIs offers several advantages:</p>
+<ul>
+<li><strong>Simplicity</strong>: PHP&rsquo;s syntax is straightforward and easy to learn, reducing the learning curve for new developers.</li>
+<li><strong>Flexibility</strong>: PHP can be used to build APIs for a wide range of applications, from simple data retrieval to complex interactions.</li>
+<li><strong>Cost-Effectiveness</strong>: As an open-source language, PHP reduces development costs and provides a vast library of resources.</li>
+<li><strong>Community Support</strong>: A large community of PHP developers ensures that help and resources are readily available.</li>
+</ul>
+<hr>
+<h2 id="setting-up-your-php-environment">Setting Up Your PHP Environment<a hidden class="anchor" aria-hidden="true" href="#setting-up-your-php-environment">#</a></h2>
+<p>Before diving into API development, you need to set up a proper PHP environment. Here’s a quick guide to get you started:</p>
+<h3 id="1-install-php">1. Install PHP<a hidden class="anchor" aria-hidden="true" href="#1-install-php">#</a></h3>
+<p>Ensure that you have the latest version of PHP installed on your server. You can download PHP from <a href="https://www.php.net/downloads">php.net</a> and follow the installation instructions for your operating system.</p>
+<h3 id="2-set-up-a-local-server">2. Set Up a Local Server<a hidden class="anchor" aria-hidden="true" href="#2-set-up-a-local-server">#</a></h3>
+<p>To test your API locally, you need a local server environment. Popular options include:</p>
+<ul>
+<li><strong>XAMPP</strong>: A free and open-source cross-platform web server solution stack package.</li>
+<li><strong>MAMP</strong>: A free, local server environment for macOS users.</li>
+<li><strong>WampServer</strong>: A Windows web development environment.</li>
+</ul>
+<h3 id="3-choose-a-database">3. Choose a Database<a hidden class="anchor" aria-hidden="true" href="#3-choose-a-database">#</a></h3>
+<p>APIs often require a database to store or retrieve data. MySQL is a popular choice that integrates seamlessly with PHP. Ensure your database server is set up and running.</p>
+<hr>
+<h2 id="building-your-first-php-api">Building Your First PHP API<a hidden class="anchor" aria-hidden="true" href="#building-your-first-php-api">#</a></h2>
+<p>Now that your environment is ready, let’s build a simple PHP API. For this example, we&rsquo;ll create an API that retrieves user data from a database.</p>
+<h3 id="step-1-database-setup">Step 1: Database Setup<a hidden class="anchor" aria-hidden="true" href="#step-1-database-setup">#</a></h3>
+<p>Create a MySQL database and a table to store user data. Here’s a sample SQL query to create a table:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> users (
+</span></span><span style="display:flex;"><span>    id INT(<span style="color:#ae81ff">11</span>) AUTO_INCREMENT <span style="color:#66d9ef">PRIMARY</span> <span style="color:#66d9ef">KEY</span>,
+</span></span><span style="display:flex;"><span>    name VARCHAR(<span style="color:#ae81ff">50</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>,
+</span></span><span style="display:flex;"><span>    email VARCHAR(<span style="color:#ae81ff">100</span>) <span style="color:#66d9ef">NOT</span> <span style="color:#66d9ef">NULL</span>
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><h3 id="step-2-connecting-to-the-database">Step 2: Connecting to the Database<a hidden class="anchor" aria-hidden="true" href="#step-2-connecting-to-the-database">#</a></h3>
+<p>Create a new PHP file (<code>db.php</code>) to handle database connections:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span>$host <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;localhost&#39;</span>;
+</span></span><span style="display:flex;"><span>$db <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;your_database_name&#39;</span>;
+</span></span><span style="display:flex;"><span>$user <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;your_username&#39;</span>;
+</span></span><span style="display:flex;"><span>$pass <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;your_password&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    $pdo <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">PDO</span>(<span style="color:#e6db74">&#34;mysql:host=</span><span style="color:#e6db74">$host</span><span style="color:#e6db74">;dbname=</span><span style="color:#e6db74">$db</span><span style="color:#e6db74">&#34;</span>, $user, $pass);
+</span></span><span style="display:flex;"><span>    $pdo<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">setAttribute</span>(<span style="color:#a6e22e">PDO</span><span style="color:#f92672">::</span><span style="color:#a6e22e">ATTR_ERRMODE</span>, <span style="color:#a6e22e">PDO</span><span style="color:#f92672">::</span><span style="color:#a6e22e">ERRMODE_EXCEPTION</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">PDOException</span> $e) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">die</span>(<span style="color:#e6db74">&#34;Connection failed: &#34;</span> <span style="color:#f92672">.</span> $e<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">getMessage</span>());
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><h3 id="step-3-creating-the-api-endpoint">Step 3: Creating the API Endpoint<a hidden class="anchor" aria-hidden="true" href="#step-3-creating-the-api-endpoint">#</a></h3>
+<p>Create a new PHP file (<code>api.php</code>) for the API logic:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">header</span>(<span style="color:#e6db74">&#34;Content-Type: application/json&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">include</span> <span style="color:#e6db74">&#39;db.php&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$sql <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;SELECT * FROM users&#34;</span>;
+</span></span><span style="display:flex;"><span>$statement <span style="color:#f92672">=</span> $pdo<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">prepare</span>($sql);
+</span></span><span style="display:flex;"><span>$statement<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">execute</span>();
+</span></span><span style="display:flex;"><span>$users <span style="color:#f92672">=</span> $statement<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">fetchAll</span>(<span style="color:#a6e22e">PDO</span><span style="color:#f92672">::</span><span style="color:#a6e22e">FETCH_ASSOC</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">echo</span> <span style="color:#a6e22e">json_encode</span>($users);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><h3 id="step-4-testing-the-api">Step 4: Testing the API<a hidden class="anchor" aria-hidden="true" href="#step-4-testing-the-api">#</a></h3>
+<p>To test your API, start your local server and navigate to <code>http://localhost/api.php</code>. You should see a JSON response with user data.</p>
+<hr>
+<h2 id="enhancing-your-php-api">Enhancing Your PHP API<a hidden class="anchor" aria-hidden="true" href="#enhancing-your-php-api">#</a></h2>
+<p>Once you&rsquo;ve created a basic API, you can enhance it by adding features like data filtering, authentication, and error handling.</p>
+<h3 id="data-filtering">Data Filtering<a hidden class="anchor" aria-hidden="true" href="#data-filtering">#</a></h3>
+<p>Allow users to filter data by adding query parameters to your API endpoint. Modify your SQL query to accept parameters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>$name <span style="color:#f92672">=</span> $_GET[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">??</span> <span style="color:#e6db74">&#39;&#39;</span>;
+</span></span><span style="display:flex;"><span>$sql <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;SELECT * FROM users WHERE name LIKE :name&#34;</span>;
+</span></span><span style="display:flex;"><span>$statement <span style="color:#f92672">=</span> $pdo<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">prepare</span>($sql);
+</span></span><span style="display:flex;"><span>$statement<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">execute</span>([<span style="color:#e6db74">&#39;name&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;%</span><span style="color:#e6db74">$name</span><span style="color:#e6db74">%&#34;</span>]);
+</span></span><span style="display:flex;"><span>$users <span style="color:#f92672">=</span> $statement<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">fetchAll</span>(<span style="color:#a6e22e">PDO</span><span style="color:#f92672">::</span><span style="color:#a6e22e">FETCH_ASSOC</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">echo</span> <span style="color:#a6e22e">json_encode</span>($users);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><h3 id="authentication">Authentication<a hidden class="anchor" aria-hidden="true" href="#authentication">#</a></h3>
+<p>For secure APIs, implement an authentication mechanism. One common method is using API keys or tokens.</p>
+<h3 id="error-handling">Error Handling<a hidden class="anchor" aria-hidden="true" href="#error-handling">#</a></h3>
+<p>Ensure your API gracefully handles errors. Modify your script to return appropriate HTTP status codes and error messages.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// API logic
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">Exception</span> $e) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">http_response_code</span>(<span style="color:#ae81ff">500</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">echo</span> <span style="color:#a6e22e">json_encode</span>([<span style="color:#e6db74">&#39;error&#39;</span> <span style="color:#f92672">=&gt;</span> $e<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">getMessage</span>()]);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><hr>
+<h2 id="best-practices-for-php-apis">Best Practices for PHP APIs<a hidden class="anchor" aria-hidden="true" href="#best-practices-for-php-apis">#</a></h2>
+<p>To create efficient and maintainable APIs, follow these best practices:</p>
+<ul>
+<li><strong>Keep It Simple</strong>: Design APIs that are easy to understand and use.</li>
+<li><strong>Documentation</strong>: Provide clear documentation for your API endpoints.</li>
+<li><strong>Versioning</strong>: Use versioning to manage changes and ensure backward compatibility.</li>
+<li><strong>Security</strong>: Implement security measures like HTTPS and input validation.</li>
+<li><strong>Testing</strong>: Regularly test your API for performance and reliability.</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Building lightweight APIs with PHP is a powerful way to enhance your website&rsquo;s functionality while keeping performance in check. By following the steps and best practices outlined in this article, you&rsquo;ll be well on your way to creating efficient, secure, and user-friendly APIs.</p>
+<p>If you&rsquo;re looking to optimize your blog content or resurrect old posts, consider using OpalTrail&rsquo;s 🔍 Keyword Necromancer tool. It&rsquo;s an excellent way to enhance your SEO strategy and breathe new life into your content.</p>
+<p>Happy coding! 🚀</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://blog.opaltrail.com/tags/webdev/">Webdev</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/productivity/">Productivity</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/seo/">SEO</a></li>
+      <li><a href="https://blog.opaltrail.com/tags/tools/">Tools</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://blog.opaltrail.com/">Deployed – Code, Tactics, and Digital Ops Blog</a> by <a href="https://opaltrail.com/">OpalTrail</a></span> · 
+
+    <span>Powered by half-finished features and full-blown ambition.</span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
